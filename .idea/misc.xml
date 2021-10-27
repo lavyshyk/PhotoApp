@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildAttributionWarningsFilter">
+    <option name="noGCSettingWarning" value="true" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22135416666666666" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/background_button_delete.xml" value="0.3828125" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/background_item_layout.xml" value="0.22135416666666666" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/backgrounf_logo.xml" value="0.22135416666666666" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/black_add.xml" value="0.3828125" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/checkbox_active.xml" value="0.3828125" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/checkbox_inactive.xml" value="0.3828125" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/checkbox_layout.xml" value="0.3828125" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/icon.xml" value="0.3828125" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/icon_common.xml" value="0.3828125" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/icon_location.xml" value="0.3828125" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/icon_setting.xml" value="0.3828125" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/income.xml" value="0.22135416666666666" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/moodboard.xml" value="0.3828125" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/plus_1_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/plus_1_foreground.xml" value="0.22135416666666666" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/plus_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/plus_foreground.xml" value="0.22135416666666666" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/drawable/shadow_image.xml" value="0.3828125" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/layout/fragment_fiullscreen_fragment.xml" value="0.22" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/layout/fragment_location.xml" value="0.33" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/layout/item_folder.xml" value="0.2712721145745577" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/layout/item_image_grid.xml" value="0.36666666666666664" />
+        <entry key="..\:/kotlin/PhotoApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="15" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

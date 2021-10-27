@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PhotoApp</string>
+    <string name="folder_s_name">Folder\'s name</string>
+    <string name="location">LOCATIONS</string>
+    <string name="locationFragment">LocationFragment</string>
+    <string name="name">Name</string>
+    <string name="delete">Delete</string>
+    <string name="fullscreen_fragment">FullScreen</string>
+
+</resources>

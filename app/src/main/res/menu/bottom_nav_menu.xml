@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/icon_setting"
+        android:title=""/>
+    <item
+        android:id="@+id/income"
+        android:icon="@drawable/income"
+        android:title="" />
+    <item
+        android:id="@+id/holder"
+        android:enabled="false"
+        android:title=""
+        app:itemIconSize="@dimen/_120dp"/>
+    <item
+        android:id="@+id/moodboard"
+        android:icon="@drawable/moodboard"
+        android:title=""/>
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/icon_location"
+        android:title=""/>
+</menu>

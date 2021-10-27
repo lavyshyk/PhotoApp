@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "696690315835",
+    "project_id": "photoapp-329518",
+    "storage_bucket": "photoapp-329518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696690315835:android:e9c07bfca37b3e1729421e",
+        "android_client_info": {
+          "package_name": "com.lavyshyk.photoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696690315835-fi7mr96j0fvtqgh6pj7m25j2p4nrth7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lavyshyk.photoapp",
+            "certificate_hash": "81da09125cfca94ac46509bf18af2d716888bc34"
+          }
+        },
+        {
+          "client_id": "696690315835-vpu28odsv1r0r6dbs34mrssoaa6frmhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeYWowp0DkEa-osrJVYx8em1E14M9vXLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696690315835-vpu28odsv1r0r6dbs34mrssoaa6frmhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
