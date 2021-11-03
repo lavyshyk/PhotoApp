@@ -60,7 +60,6 @@ dependencies {
 
     implementation "androidx.core:core-ktx:$coreKtx"
     implementation "androidx.appcompat:appcompat:$appcompatVersion"
-    implementation "com.google.android.material:material:$materialVersion"
     implementation "androidx.legacy:legacy-support-v4:$legacySupport"
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:2.3.5"
@@ -75,8 +74,9 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
     implementation "androidx.recyclerview:recyclerview:$recyclerviewVersion"
     implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
-    implementation "androidx.multidex:multidex:$multidex_version"
 
+    implementation 'com.google.android.material:material:1.5.0-alpha05'
+    implementation "androidx.multidex:multidex:$multidex_version"
     //Room
     implementation("androidx.room:room-runtime:$room_version")
     implementation 'androidx.lifecycle:lifecycle-common-java8:2.3.1'

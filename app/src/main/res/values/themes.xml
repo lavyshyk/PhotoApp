@@ -1,10 +1,10 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.PhotoApp" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.PhotoApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#000000</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
-        <item name="colorAccent">#CFD2CC</item>
+        <item name="colorAccent">#000000</item>
         <!-- Customize your theme here. -->
 
     </style>

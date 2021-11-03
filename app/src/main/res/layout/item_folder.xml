@@ -6,7 +6,7 @@
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginTop="@dimen/_5dp"
         android:layout_marginBottom="@dimen/_10dp"
         android:background="@drawable/background_item_layout"
@@ -19,16 +19,18 @@
             android:orientation="horizontal">
 
             <FrameLayout
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:id="@+id/text_field"
                 android:layout_marginStart="@dimen/_20dp"
                 android:layout_marginTop="@dimen/_12dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/mIBAddImage">
 
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/mETNameChildFolder"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center_vertical"
                     android:background="#EDF3F4"
@@ -46,7 +48,7 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/mTVNameChildFolder"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center_vertical"
                     android:background="#EDF3F4"
@@ -66,7 +68,8 @@
                 android:src="@drawable/black_add"
                 android:theme="@style/Theme.AppCompat"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/text_field"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <GridView

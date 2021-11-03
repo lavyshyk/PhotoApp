@@ -9,6 +9,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.widget.doAfterTextChanged
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.SavedStateHandle
+import androidx.lifecycle.distinctUntilChanged
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
@@ -40,7 +41,8 @@ class LocationFragment : Fragment(R.layout.fragment_location) {
         mViewModel.getLocationDoc()  // init request to Firestore - get location(name)
         mViewModel.getListFolders(false)  // init request to Firestore and Storage - get all data
 
-        mViewModel.mImageFromGallery.observe(viewLifecycleOwner) {
+        mViewModel.mImageFromGallery.distinctUntilChanged()
+            .observe(viewLifecycleOwner) {
             when (it) {
                 is Outcome.Progress -> {
                     if (it.loading) {

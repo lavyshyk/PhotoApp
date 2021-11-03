@@ -44,6 +44,7 @@ class LocationViewModel(savedStateHandle: SavedStateHandle) : BaseViewModel(save
         mStorageReferenceImages = mStorageReference.child("images")
     }
 
+
     /**
      * add for refresh ui and add to Firestore and Storage
      */
